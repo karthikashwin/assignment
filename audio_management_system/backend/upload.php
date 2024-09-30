@@ -1,6 +1,6 @@
 <?php
 // Connect to the database
-$conn = new mysqli("localhost", "root", "", "practice");
+$conn = new mysqli("localhost", "root", "", "practice"(dbname));
 
 // Check connection
 if ($conn->connect_error) {
